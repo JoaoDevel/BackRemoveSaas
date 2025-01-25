@@ -20,7 +20,7 @@ const Header = () => {
           <input type="file" name="" id="upload1" hidden />
           <label
             htmlFor="upload1"
-            className="inline-flex gap-3 px-8 py-3.5 rounded-full cursor-pointer bg-gradient-to-r  from-violet-600 to-fuchsia-500  hover:scale-105 duration-300 transition-all"
+            className="inline-flex gap-3 px-9 py-3.5 rounded-full cursor-pointer bg-gradient-to-r  from-violet-600 to-fuchsia-500  hover:scale-105 duration-300 transition-all  "
           >
             <img src={assets.upload_btn_icon} alt="" className="w-[20px]" />
             <p className="text-white text-sm">Upload your image</p>
